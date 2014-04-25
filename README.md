@@ -34,12 +34,6 @@ or
 % bower install https://github.com/jquery/jquery.git
 ```
 
-### Directory Tree
-
-- `src/` ... `*.ts`, `*.html`
-- `build/` ... compiled file to (`*.js`, `*.html`)
-- `tests/` ... test file
-
 ### Command
 
 build
@@ -58,16 +52,8 @@ local web server
 
 DocumentRoot is `build/`
 
-```
-% grunt server
-```
-
 test
 
 ```sh
 % testem
 ```
-
-<hr>
-
-funnythingz
