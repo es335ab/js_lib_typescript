@@ -48,10 +48,6 @@ watch
 % grunt watch
 ```
 
-local web server
-
-DocumentRoot is `build/`
-
 test
 
 ```sh
