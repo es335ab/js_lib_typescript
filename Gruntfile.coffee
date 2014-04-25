@@ -4,12 +4,12 @@ module.exports = (grunt)->
 
     uglify:
       dist:
-        files: 'build/app.min.js': ['build/app.js']
+        files: 'build/js/app.min.js': ['build/js/app.js']
 
     concat:
       hackleview:
         src: ['src/**/*.js']
-        dest: 'build/app.js'
+        dest: 'build/js/app.js'
 
       options:
         separator: ';'
@@ -20,7 +20,7 @@ module.exports = (grunt)->
           expand: true
           cwd: 'bower_components/jquery/dist/'
           src: ['jquery.min.js']
-          dest: 'build/'
+          dest: 'build/js/'
         }]
 
       html:
